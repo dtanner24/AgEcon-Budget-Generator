@@ -20,14 +20,13 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 30px 10%;
+  padding: 20px;
 }
 
 .logo {
-  padding-left: 0px;
   margin-right: auto;
-  height: 50px;
-  width: 70px;
+  height: 40px;
+  width: 60px;
 }
 
 .nav-links {
@@ -44,7 +43,7 @@ header {
 }
 
 .nav-links li a:hover {
-  color: blue;
+  color: rgb(128, 0, 0);
 }
 
 button {
