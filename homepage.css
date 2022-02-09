@@ -63,3 +63,10 @@ button {
 button:hover {
   background-color: rgba(128, 0, 0, 0.8);
 }
+
+#content-container {
+  height: 90%;
+  width: 80%;
+  margin: 30px 50px;
+  display: flex;
+}
