@@ -55,7 +55,7 @@ button {
   padding: 9px 25px;
   background-color: rgba(128, 0, 0, 1);
   border: none;
-  border-radius: 50px;
+  border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
@@ -64,9 +64,30 @@ button:hover {
   background-color: rgba(128, 0, 0, 0.8);
 }
 
-#content-container {
+.home-container,
+.contact-container,
+.about-container {
   height: 90%;
   width: 80%;
   margin: 30px 50px;
+}
+
+.form-container {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.form-container form {
+  padding: 50px 50px;
+  border: solid;
+}
+
+.form-container div {
+  font-size: 15px;
+}
+
+.form-container input {
+  margin: 20px;
 }
