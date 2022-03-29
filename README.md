@@ -5,7 +5,6 @@ Group Members:
 * Will Parker - wcp133@msstate.edu
 * Melvin Nguyen - mn834@msstate.edu
 * Alexander Bui - adb972@msstate.edu
-* Terryuntae Griffin - tmg361@msstate.edu
 * Nick Hester - nh785@msstate.edu
 * Sabindra Shrestha - ss4577@msstate.edu
 
