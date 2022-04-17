@@ -31,10 +31,30 @@ html {
   margin-right: 5px;
 }
 
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 30px;
-  padding: 300px;
+.about-container {
+  margin: 70px;
+  margin-top: 70px;
+}
+
+.about-container h1 {
+  text-align: center;
+  color: #660000;
+}
+.about-container h2 {
+  text-align: center;
+  letter-spacing: -5px;
+  color: #660000;
+}
+.about-container h4 {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: #660000;
+}
+.about-container div div {
+  width: 85%;
+  color: rgb(75, 75, 75);
+}
+
+.about-container h4 img {
+  background-color: white;
 }
