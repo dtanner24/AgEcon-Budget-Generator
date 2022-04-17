@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 
 * {
   box-sizing: border-box;
@@ -6,88 +6,35 @@
   padding: 0;
   background-color: #ffffff;
 }
-
-li,
-a {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  color: black;
-  text-decoration: none;
+body,
+html {
+  height: 100%;
 }
 
-header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 20px;
+.bg {
+  /* The image used */
+  background-image: url("farmingppl.jpeg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header {
+  font-family: "Work Sans", sans-serif;
+}
+.navbar-brand img {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-.logo {
-  margin-right: auto;
-  height: 40px;
-  width: 60px;
-}
-
-.nav-links {
-  list-style: none;
-}
-
-.nav-links li {
-  display: inline-block;
-  padding: 0px 20px;
-}
-
-.nav-links li a {
-  transition: all 0.3s ease 0s;
-}
-
-.nav-links li a:hover {
-  color: rgb(128, 0, 0);
-}
-
-button {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  color: #ffffff;
-  text-decoration: none;
-  padding: 9px 25px;
-  background-color: rgba(128, 0, 0, 1);
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-}
-
-button:hover {
-  background-color: rgba(128, 0, 0, 0.8);
-}
-
-.home-container,
-.contact-container,
-.about-container {
-  height: 90%;
-  width: 80%;
-  margin: 30px 50px;
-}
-
-.form-container {
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
-}
-
-.form-container form {
-  padding: 50px 50px;
-  border: solid;
-}
-
-.form-container div {
-  font-size: 15px;
-}
-
-.form-container input {
-  margin: 20px;
+  margin: 30px;
+  padding: 300px;
 }
