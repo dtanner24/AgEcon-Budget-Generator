@@ -1,3 +1,6 @@
+<img width="1440" alt="Screen Shot 2022-09-17 at 2 24 05 AM" src="https://user-images.githubusercontent.com/61631923/190845625-18cc98af-0d73-4423-a593-04affb433486.png">
+
+
 # AgEcon-Budget-Generator
 
 Group Members: 
